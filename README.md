@@ -4,7 +4,13 @@ Tap Homebrew de Tykok.
 
 ```sh
 brew install tykok/tap/notion-seed
+brew install tykok/tap/learner
 ```
 
-Les casks de ce dépôt sont générés par GoReleaser à chaque release.
-Ne les éditez pas à la main.
+Rien ici ne s'édite à la main :
+
+- `Casks/notion-seed.rb` est généré par GoReleaser à chaque release de
+  [notion-seed](https://github.com/Tykok/notion-seed).
+- `Formula/learner.rb` est poussé par la CI de
+  [learning-with-claude](https://github.com/Tykok/learning-with-claude) à chaque tag
+  (source : `Formula/learner.rb` de ce dépôt).
